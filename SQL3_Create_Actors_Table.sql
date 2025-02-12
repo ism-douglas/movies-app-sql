@@ -1,4 +1,4 @@
--- Step 3: Create Actors Table
+-- Practical 3: Create Actors Table
 
 CREATE TABLE actors (
     actor_id INT,

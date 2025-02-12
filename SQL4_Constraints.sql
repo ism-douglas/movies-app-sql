@@ -1,5 +1,7 @@
--- Step 3: Movies Table Constraints
+-- Practical 4: SQL Constraints
+DROP TABLE movies;
 
+-- Create new movies table with constraints
 CREATE TABLE movies (
     movie_id INT AUTO_INCREMENT PRIMARY KEY,
     title VARCHAR(255) NOT NULL,

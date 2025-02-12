@@ -1,4 +1,4 @@
--- Step 2: Create Movies Table
+-- Practical 2: Create Movies Table
 
 CREATE TABLE movies (
     movie_id INT,
