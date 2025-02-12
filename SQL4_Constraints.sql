@@ -1,4 +1,6 @@
 -- Practical 4: SQL Constraints
+
+--Drop the movies table
 DROP TABLE movies;
 
 -- Create new movies table with constraints
@@ -9,6 +11,9 @@ CREATE TABLE movies (
     category VARCHAR(100) NOT NULL,
     views BIGINT NOT NULL
 );
+
+--Drop the actors table
+DROP TABLE actors;
 
 -- Create new actors table with constraints
 CREATE TABLE actors (
