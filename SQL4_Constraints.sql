@@ -10,8 +10,7 @@ CREATE TABLE movies (
     views BIGINT NOT NULL
 );
 
--- Step 4: Actors Table Constraints
-
+-- Create new actors table with constraints
 CREATE TABLE actors (
     actor_id INT AUTO_INCREMENT PRIMARY KEY,
     actor_name VARCHAR(255) NOT NULL,
