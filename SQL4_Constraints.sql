@@ -1,6 +1,6 @@
 -- Practical 4: SQL Constraints
 
---Drop the movies table
+--Drop the movies table (without constraints)
 DROP TABLE movies;
 
 -- Create new movies table with constraints
@@ -12,7 +12,7 @@ CREATE TABLE movies (
     views BIGINT NOT NULL
 );
 
---Drop the actors table
+--Drop the actors table (without constraints)
 DROP TABLE actors;
 
 -- Create new actors table with constraints
