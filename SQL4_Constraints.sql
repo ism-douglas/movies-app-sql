@@ -19,7 +19,7 @@ DROP TABLE actors;
 CREATE TABLE actors (
     actor_id INT AUTO_INCREMENT PRIMARY KEY,
     actor_name VARCHAR(255) NOT NULL,
-    birth_date DATE,
-    country VARCHAR(100),    
+    birth_date DATE NOT NULL,
+    country VARCHAR(100) NOT NULL    
 );
 
